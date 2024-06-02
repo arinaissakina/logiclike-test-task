@@ -1,0 +1,28 @@
+@import "@font/nunito";
+.courses-list-page {
+  display: flex;
+  gap: 24px;
+  padding: 24px;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  font-family: var(--fontFamily-nunito);
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: -0.1px;
+
+  .courses-container {
+    width: 100%;
+  }
+
+  .courses-col {
+    display: flex;
+  }
+
+  .course-img {
+    width: 144px;
+    height: 144px;
+  }
+}
