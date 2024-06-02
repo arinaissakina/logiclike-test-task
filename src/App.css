@@ -12,17 +12,16 @@
   font-size: 18px;
   line-height: 18px;
   letter-spacing: -0.1px;
+}
+.courses-container {
+  width: 100%;
+}
 
-  .courses-container {
-    width: 100%;
-  }
+.courses-col {
+  display: flex;
+}
 
-  .courses-col {
-    display: flex;
-  }
-
-  .course-img {
-    width: 144px;
-    height: 144px;
-  }
+.course-img {
+  width: 144px !important;
+  height: 144px;
 }
