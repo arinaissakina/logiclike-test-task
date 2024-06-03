@@ -4,9 +4,6 @@ import styled from "styled-components";
 import { CourseTag } from "../../atoms/CourseTag";
 
 const Container = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
   padding: 12px;
   width: 264px;
   min-width: 264px;

@@ -4,7 +4,6 @@ import styled, { css } from "styled-components";
 import { CourseTagProps } from "./props";
 
 const TagComponent = styled.div<{ $isActive?: boolean }>`
-  width: -webkit-fill-available;
   color: #39414b;
   height: 42px;
   border-radius: 12px;
